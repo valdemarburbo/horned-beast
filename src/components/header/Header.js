@@ -3,8 +3,8 @@ import "./Header.css";
 
 export default function Header() {
     return (
-        <div className="header-div">
+        <header className="header-div">
             <h1>Beast World</h1>
-        </div>
+        </header>
     )
 }

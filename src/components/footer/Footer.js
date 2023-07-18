@@ -3,8 +3,8 @@ import "./Footer.css";
 
 export default function Footer() {
     return (
-        <div className="footer-div">
-            <p>Author: Valdemar Burbo</p>
-        </div>
+        <footer className="footer-div">
+            <p>&copy; Valdemar Burbo</p>
+        </footer>
     )
 }

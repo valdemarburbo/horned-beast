@@ -1,0 +1,72 @@
+.beast-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palegoldenrod;
+    border-radius: 1rem;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    background-color: white;
+}
+
+h1, h2 {
+    color: maroon;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.h2-div {
+    background-color: goldenrod;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    text-justify: auto;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 0.5rem;
+}
+
+.p-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.heart {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.heart:hover {
+    background-color: rgba(188, 143, 143, 0.527);
+    border-radius: 50%;
+    padding: 0.25rem;
+}
+
+.counter {
+    margin-left: 1rem;
+    
+}
